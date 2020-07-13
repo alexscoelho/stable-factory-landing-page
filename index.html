@@ -12,13 +12,13 @@
 <body>
     <div class="container-fluid">
         <!-- Header -->
-        <header>
+        <div>
             <nav class="navbar navbar-light bg-transparent">
                     <a class="navbar-brand text-dark">Stable Factory</a>
-                    <button type="button" class="btn btn-light ml-auto">Let's Talk</button>
+                    <button type="button" class="btn btn-light ml-auto talk-button">Let's Talk</button>
                     <form class="form-inline">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        <button class="btn  my-2 my-sm-0 bg-light" type="submit">Search</button>
                     </form>
                 </nav>
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent float-right">
@@ -40,23 +40,24 @@
                 </div>
             </nav>
         <!-- End Header -->
-        </header>
+        </div>
         <div class="embed-responsive embed-responsive-16by9">
             <video class="embed-responsive-item" src="./assets/video.mp4" allowfullscreen></video>
         </div>
-        <div class="jumbotron">
-            <div class="container">
+        <div class="jumbotron w-75 mx-auto bg-transparent">
                 <h2>
                     <a class="nav-link text-dark" href="#">what we do</a>
                 </h2>
-                <p class="lead">Stable Factory is a modern consulting firm focused on strategy, technology, and business transformation.</p>
-                <a class="btn btn-primary btn-light" href="#" role="button">Learn more</a>
-            </div>
+                <p class="pl-3">Stable Factory is a modern consulting firm focused on strategy, technology, and business transformation.</p>
+                <p class="pl-3">
+                    <a class="btn btn-primary btn-light" href="#" role="button">Learn more</a>  
+                </p>
         </div>
-        <div class="jumbotron">
+        <div class="jumbotron bg-light">
             <h2>
                 <a class="nav-link text-dark" href="#">technology platforms</a>
             </h2>
+            <span class="pl-3">We have strong partnerships with the world's top tech companies.</span>
             <div class="row">
                 <div class="col">
                     <a href="#">
@@ -84,32 +85,17 @@
                     </a>
                 </div>
             </div>
-            <span class="pl-3">We have strong partnerships with the world's top tech companies.</span>
         </div>
         <!-- Footer -->
-        <div class="container">
-            <div class="row">
-                <!-- <div class="col-12">Logo</div> -->
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">What we do</h6>
-                    <p>
-                        <a href="#!">Your Account</a>
-                    </p>
-                    <p>
-                        <a href="#!">Become an Affiliate</a>
-                    </p>
-                    <p>
-                        <a href="#!">Shipping Rates</a>
-                    </p>
-                    <p>
-                        <a href="#!">Help</a>
-                    </p>   
+        <div>
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="col-12">Logo</div> -->
                 </div>
-                <div class="col">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
                         <h6 class="text-uppercase mb-4 font-weight-bold">What we do</h6>
                         <p>
                             <a href="#!">Your Account</a>
@@ -123,52 +109,67 @@
                         <p>
                             <a href="#!">Help</a>
                         </p>   
-                </div>
-                <div class="col">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">What we do</h6>
-                        <p>
-                            <a href="#!">Your Account</a>
-                        </p>
-                        <p>
-                            <a href="#!">Become an Affiliate</a>
-                        </p>
-                        <p>
-                            <a href="#!">Shipping Rates</a>
-                        </p>
-                        <p>
-                            <a href="#!">Help</a>
-                        </p>   
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div col-12>
-                    <ul class="list-unstyled list-inline">
-                        <li class="list-inline-item">
-                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                            <i class="fa fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                            <i class="fa fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                    </ul>
+                    </div>
+                    <div class="col">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">What we do</h6>
+                            <p>
+                                <a href="#!">Your Account</a>
+                            </p>
+                            <p>
+                                <a href="#!">Become an Affiliate</a>
+                            </p>
+                            <p>
+                                <a href="#!">Shipping Rates</a>
+                            </p>
+                            <p>
+                                <a href="#!">Help</a>
+                            </p>   
+                    </div>
+                    <div class="col">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">What we do</h6>
+                            <p>
+                                <a href="#!">Your Account</a>
+                            </p>
+                            <p>
+                                <a href="#!">Become an Affiliate</a>
+                            </p>
+                            <p>
+                                <a href="#!">Shipping Rates</a>
+                            </p>
+                            <p>
+                                <a href="#!">Help</a>
+                            </p>   
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="container">
+                <div class="row">
+                    <div col-12>
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fa fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
