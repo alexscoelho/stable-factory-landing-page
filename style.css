@@ -38,8 +38,12 @@ ul {
         display:none;
     }
 }
-@media(max-width:400px ){
+@media(max-width:450px ){
     #hero video {
         height: 60vh;
     }
+}
+
+nav.navbar.navbar-expand-md.navbar-light.bg-transparent.float-right {
+    display: block;
 }
