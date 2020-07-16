@@ -28,6 +28,18 @@
 ul {
     list-style-type: none;
 }
-.footer-info {
+.footer-links {
      padding-right: 20px;
+}
+
+
+@media(max-width:500px ){
+    .talk-button {
+        display:none;
+    }
+}
+@media(max-width:400px ){
+    #hero video {
+        height: 60vh;
+    }
 }
