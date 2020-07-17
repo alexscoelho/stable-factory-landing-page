@@ -44,6 +44,12 @@ ul {
     }
 }
 
-nav.navbar.navbar-expand-md.navbar-light.bg-transparent.float-right {
-    display: block;
+@media(max-width:765px ){
+    .navbar-nav {
+        flex-direction:  row;
+    }
+    li.nav-item {
+        margin-right:20px;
+    }
 }
+
